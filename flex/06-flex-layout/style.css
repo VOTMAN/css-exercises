@@ -5,10 +5,100 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
 }
+
+.header,
+.header .left-links,
+.header .right-links {
+  display: flex;
+}
+
+.header {
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: auto;
+}
+
+.header a {
+  color: #656565;
+}
+
+.header .left-links {
+  color: black;
+  gap: 18px;
+  padding-left: 15px;
+  margin-right: auto;
+}
+
+.header .right-links {
+  gap: 18px;
+  padding-right: 18px;
+}
+
+
+
+.image img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 170px; */
+}
+
+.content .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer,
+.footer .left-links,
+.footer .right-links {
+  display: flex;
+}
+
+.footer {
+  background: #eeeeee;
+  margin-top: auto;
+}
+
+.footer a {
+  color: #656565;
+}
+
+.footer .left-links {
+  gap: 18px;
+  padding-left: 15px;
+  margin-right: auto;
+}
+
+.footer .right-links{
+  gap: 18px;
+  padding-right: 18px;
+}
+
+
 
 img {
   width: 600px;
+}
+
+li {
+  list-style-type: none;
+}
+
+ a {
+  text-decoration: none;
 }
 
 button {
@@ -16,6 +106,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
